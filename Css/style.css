@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    outline: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+body{
+    background-color: #fbfbfb;
+}
+
+.header{
+    background-color: #636c79;
+    height: 110vh;
+}
+
+nav{
+    margin: 0px 10vh;
+    padding: 20px;
+    display: flex;
+    height: 15vh;
+}
+
+.logo-main{
+    flex: 3;
+}
+
+.nav-items , .nav-btn{
+    flex: 1;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color:white;
+}
+
+.nav-btns {
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.nav-items {
+    margin: 10px ;
+}
+
+.sub-head{
+    display: flex;
+    padding: 0px 20vh;
+}
+
+.head-2{
+    padding: 5vh;
+}
+
+.head-2 > img{
+    height: 70vh;
+}
+
+.bigT{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.head-2 > p{
+    color: #cdcfd3;
+    margin-bottom: 40px;
+}
+
+.email{
+    display: flex;
+    background-color: #fff;
+    gap: 10px;
+    width: 62.5vh;
+}
+
+.email>img{
+    height: 16px;
+    margin: 24px;
+}
+
+.email > input{
+    border: none;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #8bb7a2;
+    color: white;
+    border: none;
+    margin: 5px;
+}
+
+.connect , .care-easy , .meets , .fot-border{
+    margin: 10vh 20vh;
+}
+
+.second > h1 , .second-num , .care-easy > h1{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4vh;
+}
+
+.second{
+    display: flex;
+    margin: 50px;
+}
+
+.second > img{
+    height: 75vh;
+    margin: auto;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 0px;
+}
+
+.easy3-l , .easy3-r {
+    flex: 1;
+}
+
+.easy3-l > h1 , .easy3-r > h1 { 
+    margin-top: 15vh;
+    margin-left: 5vh;
+}
+
+.easy3-l > p , .easy3-l > button , .easy3-r > p , .easy3-r > button{
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.third > div > img{
+    margin: auto;
+    display: block;
+}
+
+.bigMeet-text , .bigMeet-img{
+    display: flex;
+}
+
+.bigMeet-text > h1 , .bigMeet-text > p{
+    flex:1;
+    padding: 10vh;
+}
+
+.inner-meet{
+    margin: 3.5vh;
+}
+
+.inner-meet > h4 , .inner-meet > p {
+    margin: 3vh;
+}
+
+.meet-button{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.footer{
+    border: 1px solid #10181d;
+    background-color: #10181d;
+    color: white;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot-bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot-bot > h3 > ul{
+    list-style-type: none;
+}
+
+.last-fot{
+    margin: 3vh 0px;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.line{
+    background-color: #fff;
+    height:1px;
+    margin: 5vh 0px;
+}
+
+.logo-main > img , .logo-fot > img{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.care-easy > h1 { 
+    margin-top: 25vh;
+    letter-spacing: 2px;
+}
